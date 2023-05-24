@@ -1,0 +1,441 @@
+@media (max-width: 800px){
+	*{
+		width: 100%;
+	}
+	h1{
+		font-size: 15px;
+		width: 138px;
+	}
+	header{
+		background-image: url("mtd.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	
+	}
+	
+	h2{
+		margin-left: 20px;
+		margin-top: 40px;
+		margin-bottom: 35px;
+		size: 12px;
+
+	}	
+	
+	.golovna h1{
+		justify-content: center;
+		padding-left: 15%;
+	}
+	
+	.golovna button{
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+		margin-top: 0px;
+	}
+	
+	.golovna p{
+		justify-content: center;
+		padding-left: 0px;
+		margin-top: 0px;
+	}
+		
+	
+	.golovna{
+		font-size: 11px;
+		width: 200px;
+		margin-left: 10%;
+		margin-top: 30%;
+	}
+		
+	
+	.linegl{
+		width: 75%;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+	
+	.galer img{
+		width: 120px;
+		height: 170px;
+		margin: 2px;
+		
+	}
+	
+	.galer{
+		flex-direction: column;
+		margin-left: 5px;
+		margin-right: 5px;
+		justify-content: center;
+		align-items: center;
+		width: 126px;
+		
+	}
+	
+	.GLR{
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+	
+	.pr_clmn{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.menu img{
+		display: block;
+		padding-top: 10px;
+		margin-left: 15px;
+		
+		
+	}
+	
+	[for="burger"]{
+		display: block;
+	}
+	
+	#burger:checked+label+nav{
+		display: block;
+	}
+	
+	nav{
+		display: none;
+		position: fixed;
+		margin-top: 200px;
+		background: hsla(339, 95%, 65%, 0.3);
+		width: 150px;
+		transition: .5s all;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	
+	#logo{
+		display: none;
+	}
+	
+	.contact, .social{
+		display: none;
+	}
+	
+	.line_1, .line_2{
+		position: absolute;
+		width: 2px;
+		height: 1140px;
+		background-color: #B90946;
+		display: flex;
+	}
+	
+	.line_1{
+		margin-top: 30px;
+	}
+
+	.line_2{
+		margin-top: 30px;
+	}
+	.linePR_2{
+		margin-top: 390px;
+	}
+
+	.linePR_1{
+		margin-bottom: 360px;
+	}
+	
+	.linePR_1, .linePR_2, .linePR_3, .linePR_4{
+		position: absolute;
+		width: 300px;
+		height: 2px;
+		background-color: #B90946;
+		text-align: center;
+		display: flex;
+	}
+	
+	.linePR_3{
+		margin-bottom: 1060px;
+	}
+	
+	.linePR_4{
+		margin-top: 1130px;
+	}
+	
+	.spusok{
+		margin-left: 15%;
+		margin-top: 40px;
+		font-size: 12px;
+		width: 70%;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.blok1, .blok2{
+		width: 70%;
+		margin-bottom: 20px;
+		font-size: 12px;
+		margin-top: 30px;
+		
+	}
+	.blok2{
+		margin-left: 15%;
+		
+	}
+	.blok1{
+		margin-left: 10%;
+	}
+	
+	.about{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.info{
+		margin-left:50px;
+		
+		width: 300px;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	
+	.photo{
+		
+		width: 300px;
+		justify-content: center;
+		display: flex;	
+
+	}
+	
+	.photo img{
+		width: 250px;
+		justify-content: center;
+		align-items: center;
+		margin-top: 10px;
+		
+	}
+	
+	.lineABOUT_1{
+		position: absolute;
+		width: 2px;
+		height: 340px;
+		background-color: #B90946;
+		display: flex;
+		margin-top: 0px;
+		margin-right: 250px;
+	}
+	.lineABOUT_2{
+		position: absolute;
+		width: 2px;
+		height: 340px;
+		background-color: #B90946;
+		display: flex;
+		margin-left: 290px;
+		margin-top: -10px;
+	}
+
+	.lineABOUT_3{
+		position: absolute;
+		width: 270px;
+		height: 2px;
+		background-color: #B90946;
+		display: flex;
+		margin-right: 0px;
+		margin-left: 20px;
+		margin-top: 0px;
+		
+	}
+
+	.lineABOUT_4{
+		position: absolute;
+		width: 270px;
+		height: 2px;
+		background-color: #B90946;
+		display: flex;
+		margin-left: 40px;
+		margin-top: 330px;
+	}
+	
+	
+	.vidgyk{
+		display: flex;
+		border: 2px solid #B90946;
+		width: 80%;
+		justify-content: center;
+		margin-bottom: 10px;
+		margin-left: 10%;
+		
+	}
+
+	.vidgyk img{
+		display: flex;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		margin: 25px;
+		
+	}
+
+	.star{
+		display: flex;
+		width: 100px;
+	}
+
+	.star img{
+		width: 15px;
+		height: 15px;
+		margin: 3px;
+	}
+
+	.post{
+		font-size: 13px;
+		margin-right: 25px;
+		margin-bottom: 10px;
+	}
+
+	.username{
+		font-size: 20px;
+		margin-top: 10px;
+	}
+
+	.vdgk button{
+		border-bottom: 1px solid  #B90946;
+		background-color: #1C1C1C;
+		font-size: 10px;
+		color:  #B90946;
+		height: 20px;
+		width: 120px;
+		justify-content: center;
+		align-items: center;
+		margin-left: 25%;
+		box-shadow: 5px 5px 5px black;
+	}
+		
+	footer{
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+
+	.footPhoto img{
+		margin-left: 10%;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		margin-right: 10px;
+	
+	}
+
+	.apll{
+		border: 1px dashed white;
+		width: 120px;
+		border: 1px solid red;
+		
+	}
+
+	.appl p{
+		font-size: 10px;
+		margin-top: 5px;
+	}
+
+	.appl button{
+		background: rgba(0,0,0,0);
+		color: white;
+		width: 124px;
+		height: 25px;
+		font-size: 12px;
+		border: 3px solid #B90946;
+		box-shadow: 5px 5px 5px black;
+		margin-top: 15px; 
+		text-align: center;
+		margin-left: 10px;
+		
+	}
+
+	.appl button:hover {
+		background: #B90946;
+		color: white;
+		box-shadow: 5px 5px 5px black;
+	}
+
+	.appl input{
+		width: 150px;
+		color: white;
+		height: 30px;
+		background-color: #1C1C1C;
+		margin-top: 13px;
+		border-bottom: 3px solid #B90946;
+		
+		
+	}
+	.form{
+		display: flex;
+
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.chkb input[type="checkbox"]{
+
+		bottom: 5px;
+		width: 13px;
+		background-color: #1C1C1C;
+		border: 3px solid #B90946;
+		margin-left:5px;
+	}
+
+	.chkb p{
+		font-size: 8px;
+		color: grey;
+		margin-left: 0px;
+
+		width: 250px;
+	}
+		
+	.chkb{
+		position: relative;
+		display: flex;
+		width: 150px;
+		margin-top: 15px;
+
+		
+	}
+
+	.footContact{
+		display: flex;
+		width: 80%;
+		margin-left: 10%;
+		font-size: 10px;
+		padding-top: 20px;
+		
+		
+	}
+
+	.footTEL{
+		display: flex;
+		margin-bottom: 20px;
+		font-size: 10px;
+		
+	}
+	.footTEL img{
+		width: 15px;
+		height: 15px;
+		margin-left: 10px;
+	}
+
+	.footTEL p{
+		margin-left: 5px;
+		font-size: 10px;
+	}
+	.footsoc{
+		display: flex;
+	}
+	.footsoc img{
+		
+		margin-right: 15px;
+		width: 15px;
+		height: 15px;
+	}
+	
+	h3{
+		font-size: 13px;
+	}
+	
+
+}
